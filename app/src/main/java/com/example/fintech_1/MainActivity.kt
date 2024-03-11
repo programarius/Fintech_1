@@ -1,5 +1,6 @@
 package com.example.fintech_1
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -26,5 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     fun onChangeTextClick(view: View) {
         textView.text = "Hello"
+    }
+
+    fun onChangeTextColor(view: View) {
+        textView.setTextColor(Color.RED)
     }
 }
